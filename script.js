@@ -16,7 +16,7 @@ function Employee(name, age, jobTitle) {
 Object.setPrototypeOf(Employee.prototype, Person.prototype)
 
 Employee.prototype.jobGreet = function() {
-	return `Hello, my name is ${this.name}, I am ${this.age} years old and and my job title is ${this.jobTitle}..`
+	return `Hello, my name is ${this.name}, I am ${this.age} years old and and my job title is ${this.jobTitle}.`
 }
 
 // Do not change code below this line
